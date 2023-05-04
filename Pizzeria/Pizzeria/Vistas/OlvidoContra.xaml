@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizzeria.OlvidoContra"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundImageSource="pizza_fondo_recuCuenta.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Grid.Row="1"
+                         Padding="20">
+
+                <Frame BackgroundColor="#80000000"
+                       CornerRadius="10"
+                       Padding="20"
+                       Margin="0,258,0,0">
+
+                    <StackLayout>
+                        <Label Text="Restablecer Contraseña"
+                               FontSize="Large"
+                               TextColor="black"
+                               HorizontalOptions="Center"/>
+
+                        <Entry x:Name="txtCorreoElectronico"
+                               Placeholder="Correo electrónico"
+                               Margin="0,20,0,0"/>
+
+
+                        <Button Text="Restablecer Contraseña"
+                                BackgroundColor="#FF4500"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                CornerRadius="8"
+                                
+                                Margin="0,20,0,0"/>
+
+                    </StackLayout>
+
+                </Frame>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

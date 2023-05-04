@@ -1,0 +1,96 @@
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.deps.json
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfo.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\refint\Pizzeria.dll
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\ref\Pizzeria.dll
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.AssemblyReference.cache
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfoInputs.cache
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfo.cs
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.CoreCompileInputs.cache
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\refint\Pizzeria.dll
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.deps.json
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\ref\Pizzeria.dll
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\principal.xaml.g.cs
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Register.xaml.g.cs
+C:\Users\thYsr\Downloads\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\OlvidoContra.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.deps.json
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.AssemblyReference.cache
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfoInputs.cache
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfo.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.CoreCompileInputs.cache
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\refint\Pizzeria.dll
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\ref\Pizzeria.dll
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\MainPage.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\OlvidoContra.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\Register.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\bebidas.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\carrito.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\cocteles.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\inicio.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\principal.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\bebidas.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\carrito.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\cocteles.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\inicio.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\principal.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\MainPage.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\OlvidoContra.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\Register.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\Pizzas.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\pagos.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.deps.json
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\bin\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.AssemblyReference.cache
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\bebidas.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\carrito.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\cocteles.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\inicio.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\pagos.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\Pizzas.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\principal.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\MainPage.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\OlvidoContra.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Vistas\Register.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfoInputs.cache
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.AssemblyInfo.cs
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.csproj.CoreCompileInputs.cache
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.dll
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\refint\Pizzeria.dll
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Pizzeria.pdb
+C:\Users\thYsr\source\repos\Pizzeria - copia\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\ref\Pizzeria.dll
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\VisaPago.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\MasterPago.xaml.g.cs
+C:\Users\User\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\PaypalPago.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\MasterPago.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\pagos.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\PaypalPago.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\Pizzas.xaml.g.cs
+C:\Users\thYsr\source\repos\Pizzeria\Pizzeria\Pizzeria\obj\Debug\netstandard2.0\Intefaz\VisaPago.xaml.g.cs

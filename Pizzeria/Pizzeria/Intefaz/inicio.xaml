@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Pizzeria.inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout WidthRequest="150">
+                <Image Source="fondomenu2" />
+            </StackLayout>
+
+            <Label Text="La Buena Pizza"  FontSize="40" 
+               TextColor="White" HorizontalTextAlignment="Center" />
+            <Label Text="¡Pide ahora y disfruta de nuestra pizza!"  FontSize="15" 
+               TextColor="White" HorizontalTextAlignment="Center" />
+            <Frame>
+                <StackLayout>
+                    <Label Text="¡Prueba nuestra deliciosa pizza hoy!" HorizontalOptions="Center" FontSize="Medium" />
+                    <Label Text="Nuestras pizzas son elaboradas con ingredientes frescos y de calidad, cuidadosamente seleccionados para ofrecerte una experiencia culinaria única y deliciosa que deleitará tu paladar." 
+                           HorizontalTextAlignment="Center"
+                           FontSize="Body"/>
+                </StackLayout>
+            </Frame>
+            <ScrollView>
+                <StackLayout>
+                    <Image Source="Fondo2" 
+                   HeightRequest="200"
+                   WidthRequest="250"
+                   Margin="0,20,0,20"
+                   HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="Dirección:" 
+                       FontSize="Body"
+                       HorizontalOptions="Center"/>
+                    <Label Text="Sector 7 Grupo 4 Mz B Lote 14, Lima, Peru"
+                           FontSize="Body"
+                           HorizontalOptions="Center"/>
+                    <Grid Margin="120,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="200"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40" ></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Image Source="celular.ico" Grid.Column="0" Grid.Row="0" 
+                       HeightRequest="50" WidthRequest="30" 
+                       HorizontalOptions="EndAndExpand" />
+                        <Label Text="(+51) 914 645 312" Grid.Column="1" Grid.Row="0" 
+                       TextColor="#6e3732" FontSize="Body" 
+                       HorizontalTextAlignment="Start" HorizontalOptions="FillAndExpand"  VerticalOptions="Center" />
+                    </Grid>
+
+                    <Button x:Name="btnAcceso" TextTransform="None" CornerRadius="15" Text="Menu" 
+                        TextColor="White" FontSize="Medium"
+                        BackgroundColor="#FC4400" Margin="100,10,80,15"  
+                        Clicked="btnAcceso_Clicked" />
+                </StackLayout>
+            </ScrollView>
+            <StackLayout BackgroundColor="#FC4400" HeightRequest="50">
+                <Grid Margin="50,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="500"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" ></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Image Source="correo.ico"
+                           Margin="0,7,0,0"/>
+                    <Label Text="corporacion.labuenapizza@gmail.com" Grid.Column="1" Grid.Row="0" 
+                       TextColor="White" 
+                       FontSize="Body" 
+                       Margin="10"
+                    />
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizzeria.Intefaz.MasterPago">
+    <ContentPage.Content>
+        <Frame BorderColor="#0070C9"
+               CornerRadius="50"
+               Padding="20">
+            <StackLayout Spacing="20">
+                <Image Source="master_card"
+                       Aspect="AspectFit" />
+                <Label Text="Formulario de Pago de MasterCard"
+                       FontSize="Large"
+                       TextColor="#F79D1B"
+                       FontAttributes="Bold"/>
+                <Frame BorderColor="#EA001E"
+                       CornerRadius="10"
+                       Padding="5">
+                    <Entry Placeholder="Número de tarjeta"
+                           x:Name="NroTarjeta"
+                           Keyboard="Numeric"
+                           TextColor="#0070C9" />
+                </Frame>
+                <StackLayout Orientation="Horizontal"
+                             Spacing="10">
+                    <Frame BorderColor="#EA001E"
+                           CornerRadius="5"
+                           Padding="5">
+                        <Entry Placeholder="MM"
+                               Keyboard="Numeric"
+                               x:Name="enMes"
+                               WidthRequest="50"
+                               TextColor="#0070C9" />
+                    </Frame>
+                    <Frame BorderColor="#EA001E"
+                           CornerRadius="5"
+                           Padding="5">
+                        <Entry Placeholder="YY"
+                               Keyboard="Numeric"
+                               x:Name="enAño"
+                               WidthRequest="50"
+                               TextColor="#0070C9" />
+                    </Frame>
+                    <Frame BorderColor="#EA001E"
+                           CornerRadius="5"
+                           Padding="5">
+                        <Entry Placeholder="CVC"
+                               Keyboard="Numeric"
+                               x:Name="enCVC"
+                               WidthRequest="70"
+                               TextColor="#0070C9" />
+                    </Frame>
+                </StackLayout>
+                <Frame BorderColor="#EA001E"
+                       CornerRadius="5"
+                       Padding="5">
+                    <Entry Placeholder="Nombre del titular de la tarjeta"
+                           x:Name="enNomTitular"
+                           TextColor="#0070C9" />
+                </Frame>
+                <StackLayout Orientation="Horizontal"
+                             Spacing="10">
+                    <Label Text="Monto: S/."
+                           VerticalTextAlignment="Center"
+                           TextColor="Black"
+                           FontSize="Large" />
+                    <Label x:Name="txtSuma"
+                           TextColor="Black"
+                           FontSize="Large" />
+                </StackLayout>
+                <BoxView HeightRequest="1"
+                         BackgroundColor="#0070C9" />
+                <Button Text="Pagar"
+                        Clicked="Pagar_clicked"
+                        BackgroundColor="#0070C9"
+                        TextColor="White"
+                        BorderColor="#0070C9"
+                        BorderWidth="2"
+                        CornerRadius="20"
+                        Padding="10"
+                        Margin="0,20,0,0" />
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

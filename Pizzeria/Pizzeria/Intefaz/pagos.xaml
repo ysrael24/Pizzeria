@@ -1,0 +1,181 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizzeria.Intefaz.pagos"
+             BackgroundColor="#EAEEF6"
+             Title="                    Verificar" >
+    
+    <StackLayout>
+        <Frame HeightRequest="800">
+            <StackLayout>
+                <Label Text="Pago Total"
+                       HorizontalOptions="Center"
+                       TextColor="#4B4D59"
+                       FontSize="15"
+                       FontAttributes="Bold"/>
+                <Grid HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="S/."
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           Grid.Column="0"
+                           TextColor="#248CFF"
+                           HorizontalOptions="Center"/>
+                    <Label x:Name="txtSuma"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           Grid.Column="1"
+                           TextColor="#248CFF"
+                           HorizontalOptions="Center"/>
+                </Grid>
+                <BoxView HeightRequest="20" />
+                <Grid HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Fecha"
+                           Grid.Column="0"
+                           Grid.Row="0"
+                           HorizontalOptions="Center"/>
+                    <Label x:Name="txtFecha"
+                           Grid.Column="0"
+                           TextColor="#414551"
+                           FontAttributes="Bold"
+                           Grid.Row="1"
+                           HorizontalOptions="Center"/>
+                    <Label Text="Hora"
+                           HorizontalOptions="Center"
+                           Grid.Column="1"/>
+                    <Label x:Name="txtHora"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold"
+                           Grid.Column="1"
+                           TextColor="#414551"
+                           Grid.Row="1"/>
+                </Grid>
+            </StackLayout>
+        </Frame>
+        <Frame BackgroundColor="#EAEEF6" HeightRequest="500">
+            <StackLayout>
+                <Label Text="Método de pago" FontAttributes="Bold" FontSize="20" />
+                <BoxView HeightRequest="5" />
+                <Frame>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0"/>
+                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Image Source="paypal_icon.png"
+                               Grid.RowSpan="5" 
+                               HeightRequest="50" />
+                        <Label Text="Paypal" 
+                               Grid.Column="1" 
+                               Grid.Row="1"
+                               HorizontalOptions="Center" />
+                        <Label Text="buenapizza@gmail.com" 
+                               Grid.Column="1" Grid.Row="3" 
+                               HorizontalOptions="Center" />
+                        <ImageButton x:Name="btnPaypal"
+                                     Clicked="btnPaypal_Clicked"
+                                     BackgroundColor="White" 
+                                     Source="flechaderecha.png" 
+                                     HeightRequest="50" 
+                                     Grid.Column="2"
+                                     Grid.RowSpan="5" />
+                    </Grid>
+                </Frame>
+                <BoxView HeightRequest="5" />
+                <Frame>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0"/>
+                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Image Source="visa_icon.png" 
+                               Grid.RowSpan="5" 
+                               HeightRequest="50" />
+                        <Label Text="Visa" Grid.Column="1" 
+                               Grid.Row="1" 
+                               HorizontalOptions="Center" />
+                        <Label Text="**** **** **** 1234" 
+                               Grid.Column="1" Grid.Row="3" 
+                               HorizontalOptions="Center" />
+                        <ImageButton x:Name="btnVisa"
+                                     Clicked="btnVisa_Clicked"
+                                     BackgroundColor="White" 
+                                     Source="flechaderecha.png" 
+                                     HeightRequest="50" 
+                                     Grid.Column="2" 
+                                     Grid.RowSpan="5" />
+                    </Grid>
+                </Frame>
+                
+                <BoxView HeightRequest="10" />
+                <Frame>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0"/>
+                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Image Source="MasterCard.png" 
+                               Grid.RowSpan="5" 
+                               HeightRequest="50" />
+                        <Label Text="MasterCard" 
+                               Grid.Column="1" 
+                               Grid.Row="1" 
+                               HorizontalOptions="Center" />
+                        <Label Text="**** **** **** 5678" 
+                               Grid.Column="1" 
+                               Grid.Row="3" 
+                               HorizontalOptions="Center" />
+                        <ImageButton x:Name="btnMaster"
+                                     Clicked="btnMaster_Clicked"
+                                     BackgroundColor="White" 
+                                     Source="flechaderecha.png" 
+                                     HeightRequest="50" 
+                                     Grid.Column="2" 
+                                     Grid.RowSpan="5" />
+                    </Grid>
+                </Frame>
+                <BoxView HeightRequest="20" />
+                
+            </StackLayout>
+        </Frame>
+
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Pizzeria.Pizzas"
+             IconImageSource="pizza_icon.png"
+             Title="PIZZA"
+             Background="#282425">
+             
+    <StackLayout>
+        <Frame Padding="0"
+               BackgroundColor="Transparent"
+               CornerRadius="10"
+               Margin="20,20,20,20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <CarouselView Grid.Row="0"
+                              x:Name="carusel1"
+                              IsSwipeEnabled="False">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="10"
+                                   BackgroundColor="Transparent"
+                                   CornerRadius="0">
+                                <StackLayout>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="35" />
+                                            <ColumnDefinition Width="5" />
+                                            <ColumnDefinition Width="15" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="15" />
+                                            <ColumnDefinition Width="5" />
+                                            <ColumnDefinition Width="35" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="140" />
+                                            <RowDefinition Height="30" />
+                                            <RowDefinition Height="40" />
+                                            <RowDefinition Height="20" />
+                                            <RowDefinition Height="50" />
+                                        </Grid.RowDefinitions>
+                                        <Image Source="{Binding Imagen}"
+                                               WidthRequest="100"
+                                               HeightRequest="250"
+                                               Grid.Row="0"
+                                               Grid.Column="3" />
+                                        <Label Text="{Binding Nombre}"
+                                               x:Name="lblNombre"
+                                               HorizontalOptions="Center"
+                                               Grid.Row="0"
+                                               FontSize="30"
+                                               TextColor="White"
+                                               FontAttributes="Bold"
+                                               Grid.Column="3" />
+                                        <Label Text="{Binding Precio, StringFormat='{0:C}'}"
+                                               HorizontalOptions="Center"
+                                               x:Name="lblPrecio"
+                                               VerticalOptions="End"
+                                               FontSize="25"
+                                               TextColor="White"
+                                               Grid.Row="0"
+                                               Grid.Column="3"
+                                               Margin="0,20,0,20" />
+                                        <Label Text="Descripcion"
+                                               HorizontalOptions="Center"
+                                               TextColor="white"
+                                               FontAttributes="Bold"
+                                               Grid.Row="1"
+                                               Grid.Column="3"
+                                               FontSize="20"
+                                               Margin="-7,-12,0,0"/>
+                                        <BoxView HeightRequest="20" />
+                                        <Label Text="{Binding Descripcion}"
+                                               Grid.Row="1"
+                                               Grid.Column="3"
+                                               FontSize="16"
+                                               TextColor="White"
+                                               FontAttributes="Italic"
+                                               Margin="-10,20,-15,-45" />
+                                        <ImageButton Source="flechaizquierda.png"
+                                                     Grid.Column="0"
+                                                     Grid.Row="1"
+                                                     Margin="10,20,-10,20"
+                                                     CornerRadius="1000"
+                                                     BackgroundColor="#FEB913"
+                                                     x:Name="btnIzquierda"
+                                                     Clicked="btnIzquierda_Clicked" />
+                                        <ImageButton Source="flechaderecha.png"
+                                                     Grid.Column="6"
+                                                     Grid.Row="1"
+                                                     Margin="-10,20,10,20"
+                                                     CornerRadius="1000"
+                                                     BackgroundColor="#FEB913"
+                                                     x:Name="btnDerecha"
+                                                     Clicked="btnDerecha_Clicked" />
+                                    </Grid>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+            </Grid>
+        </Frame>
+        <Frame BackgroundColor="Transparent"
+               Margin="0,-180,0,60">
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10" />
+                        <ColumnDefinition Width="10" />
+                        <ColumnDefinition Width="150" />
+                        <ColumnDefinition Width="10" />
+                        <ColumnDefinition Width="10" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="15" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Button Text="-"
+                            x:Name="btnMenos"
+                            Clicked="btnMenos_Clicked"
+                            FontAttributes="Bold"
+                            CornerRadius="10"
+                            HeightRequest="10"
+                            HorizontalOptions="Start"
+                            WidthRequest="40"
+                            Grid.Row="0"
+                            Grid.Column="2"
+                            TextColor="white"
+                            FontSize="18"
+                            BackgroundColor="#9C850" />
+                    <Label Text="0"
+                           x:Name="txtCan"
+                           HorizontalOptions="Center"
+                           Margin="13,8,13,0"
+                           Grid.Row="0"
+                           Grid.Column="2"
+                           FontAttributes="Bold"
+                           TextColor="white"
+                           FontSize="20" />
+                    <Button Text="+"
+                            x:Name="btnMas"
+                            Clicked="btnMas_Clicked"
+                            FontAttributes="Bold"
+                            CornerRadius="10"
+                            WidthRequest="40"
+                            HorizontalOptions="End"
+                            Margin="5,0,0,0"
+                            Grid.Row="0"
+                            Grid.Column="2"
+                            TextColor="white"
+                            FontSize="18"
+                            BackgroundColor="#9C850" />
+                    <Button Text="       Añadir al carrito       "
+                            x:Name="btnCarrito"
+                            Clicked="btnCarrito_Clicked"
+                            IsEnabled="{Binding IsAddToCartEnabled}"
+                            TextTransform="None"
+                            TextColor="black"
+                            CornerRadius="100"
+                            Margin="-20,0,-25,0"
+                            Grid.Row="2"
+                            Grid.Column="2"
+                            FontSize="18"
+                            BackgroundColor="#FEB913" />
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

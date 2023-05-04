@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizzeria.Register"
+             NavigationPage.HasNavigationBar="false"
+             BackgroundImageSource="Fondo2.png">
+    <ScrollView>
+        <!-- Contenedor principal -->
+        <StackLayout Grid.Row="1"
+                     Padding="20">
+            <!-- Marco para el formulario -->
+            <Frame BackgroundColor="#80000000"
+                   CornerRadius="10"
+                   Padding="20">
+                <!-- Contenedor de elementos del formulario -->
+                <StackLayout>
+                    <!-- Título del formulario -->
+                    <Label Text="Registrarte"
+                           FontSize="40"
+                           FontAttributes="Bold"
+                           TextColor="White"
+                           HorizontalOptions="Center" />
+                    <!-- Campos del formulario -->
+                    <Entry x:Name="txtNombre"
+                           Placeholder="Nombres"
+                           PlaceholderColor="Gray"
+                           TextColor="White"
+                           Margin="0,20,0,0" />
+                    <Entry x:Name="txtApellidos"
+                           Placeholder="Apellidos"
+                           PlaceholderColor="Gray"
+                           TextColor="White"
+                           Margin="0,20,0,0" />
+                    <Entry x:Name="txtDni"
+                           Placeholder="DNI"
+                           PlaceholderColor="Gray"
+                           TextColor="White"
+                           Margin="0,20,0,0" />
+                    <Entry x:Name="txtContacto"
+                           Placeholder="Número de Celular o Correo Electrónico"
+                           PlaceholderColor="Gray"
+                           TextColor="White"
+                           Margin="0,20,0,0" />
+                    <Entry x:Name="txtPassword"
+                           Placeholder="Contraseña nueva"
+                           PlaceholderColor="Gray"
+                           TextColor="White"
+                           IsPassword="True"
+                           Margin="0,20,0,0" />
+                    <!-- Términos y condiciones -->
+                    <StackLayout Orientation="Horizontal"
+                                 Margin="0,20,0,0">
+                        <CheckBox x:Name="chkTerms"
+                                  VerticalOptions="Center" />
+                        <Label Text="Acepto los términos y condiciones"
+                               TextColor="White"
+                               VerticalOptions="Center" />
+                    </StackLayout>
+                    <!-- Botón de registro -->
+                    <Button x:Name="btnRegistrar"
+                            Text="Registrarte"
+                            TextColor="White"
+                            FontSize="19"
+                            FontAttributes="Bold"
+                            BackgroundColor="#FF4500"
+                            CornerRadius="8"
+                            Margin="0,20,0,0"
+                            Clicked="btnRegistrar_Clicked"
+                            IsEnabled="{Binding Source={x:Reference chkTerms}, Path=IsChecked}" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
